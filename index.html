@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 成人平台与作品档案 | 蓝果·MUSE·极光·灵犀·流明等 · 成人百科</title>
+  <meta name="description" content="成人百科 AI 平台档案：蓝果、MUSE、极光、白泽、灵犀、浮光、青鸟、砚台、流明、卷积、幻方及黄果漫剧。含内容形态、收录作品数与 AI 短剧相关作品线索。">
+  <meta name="keywords" content="AI成人平台,AI短剧,蓝果AI,MUSE AI,灵犀AI,黄果漫剧,成人百科">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://chengrenbaike.com/ai/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI 成人平台与作品档案 · 成人百科">
+  <meta property="og:description" content="平台词条 + 作品规模与形态说明。AI 图像、短剧、虚拟角色一页对照。">
+  <meta property="og:url" content="https://chengrenbaike.com/ai/">
+  <meta property="og:locale" content="zh_CN">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "AI 成人平台与作品档案",
+    "url": "https://chengrenbaike.com/ai/",
+    "description": "成人百科整理的 AI 成人平台品牌与关联作品资料。",
+    "isPartOf": { "@type": "WebSite", "name": "成人百科", "url": "https://chengrenbaike.com/" },
+    "inLanguage": "zh-CN"
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0b1210;
+      --paper: #111a17;
+      --paper-2: #172420;
+      --line: #2a3d36;
+      --text: #e6f2ec;
+      --muted: #8aa098;
+      --teal: #2dd4bf;
+      --teal-dim: rgba(45, 212, 191, 0.12);
+      --amber: #fbbf24;
+      --coral: #fb7185;
+      --font: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+      --mono: ui-monospace, "SF Mono", Menlo, monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+    a { color: var(--teal); text-decoration: none; }
+    a:hover { color: #5eead4; }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 0 18px 40px; }
+
+    .top {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .logo { font-weight: 700; font-size: 1rem; color: var(--text); }
+    .logo span { color: var(--teal); }
+    .top a.go {
+      font-size: 0.82rem; font-weight: 650;
+      padding: 8px 14px; border-radius: 8px;
+      background: var(--teal); color: #0b1210;
+    }
+    .top a.go:hover { background: #5eead4; color: #0b1210; }
+
+    /* Intro band */
+    .intro {
+      padding: 36px 0 28px;
+      border-bottom: 1px solid var(--line);
+    }
+    .intro .tag {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      color: var(--amber);
+      margin-bottom: 10px;
+    }
+    .intro h1 {
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 12px;
+    }
+    .intro h1 em { font-style: normal; color: var(--teal); }
+    .intro .lead {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 16px;
+    }
+    .intro .facts {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      font-size: 0.78rem;
+    }
+    .intro .facts span {
+      padding: 4px 10px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      color: var(--muted);
+    }
+    .intro .facts strong { color: var(--text); }
+
+    /* Dossier stack */
+    .dossier {
+      padding: 28px 0 8px;
+    }
+    .dossier > h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .dossier > .sub {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+    .file {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+    .file-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 8px 14px;
+      padding: 14px 16px;
+      background: var(--paper-2);
+      border-bottom: 1px solid var(--line);
+    }
+    .file-head a.name {
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text);
+    }
+    .file-head a.name:hover { color: var(--teal); }
+    .file-head .code {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--amber);
+    }
+    .file-head .badge {
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: var(--teal-dim);
+      color: var(--teal);
+      margin-left: auto;
+    }
+    .file-body { padding: 14px 16px 16px; }
+    .file-body .about {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    .forms {
+      display: flex; flex-wrap: wrap; gap: 6px;
+      margin-bottom: 12px;
+    }
+    .forms span {
+      font-size: 0.7rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      border: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .works-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+    .works {
+      font-size: 0.85rem;
+      color: var(--text);
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 10px 12px;
+      border: 1px dashed var(--line);
+    }
+    .works strong { color: var(--teal); }
+    .works .hint {
+      display: block;
+      margin-top: 4px;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    /* Works spotlight from topic */
+    .spotlight {
+      margin: 24px 0;
+      padding: 18px;
+      background: linear-gradient(135deg, var(--paper-2), var(--paper));
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+    .spotlight h2 {
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+    .spotlight p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    .spotlight ul {
+      list-style: none;
+      font-size: 0.88rem;
+    }
+    .spotlight li {
+      padding: 8px 0;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      align-items: baseline;
+    }
+    .spotlight li:last-child { border-bottom: none; }
+    .spotlight li a { font-weight: 650; color: var(--text); }
+    .spotlight li a:hover { color: var(--teal); }
+    .spotlight .meta { font-size: 0.75rem; color: var(--muted); }
+
+    .cta {
+      text-align: center;
+      padding: 28px 0 8px;
+      border-top: 1px solid var(--line);
+      margin-top: 12px;
+    }
+    .cta h2 { font-size: 1.1rem; margin-bottom: 6px; }
+    .cta p { font-size: 0.88rem; color: var(--muted); margin-bottom: 14px; }
+    .cta a.main {
+      display: inline-block;
+      padding: 10px 20px;
+      background: var(--teal);
+      color: #0b1210;
+      font-weight: 700;
+      border-radius: 8px;
+      margin: 0 4px 6px;
+    }
+    .cta a.main:hover { background: #5eead4; color: #0b1210; }
+    .cta a.sub {
+      display: inline-block;
+      padding: 10px 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--text);
+      margin: 0 4px 6px;
+      font-size: 0.88rem;
+    }
+    .cta a.sub:hover { border-color: var(--teal); color: var(--teal); }
+
+    footer {
+      margin-top: 28px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-align: center;
+    }
+    footer a { color: var(--muted); }
+    .disclaimer {
+      margin-top: 8px;
+      font-size: 0.7rem;
+      color: #5a6b64;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a href="https://chengrenbaike.com/" class="logo" rel="noopener"><span>成人</span>百科</a>
+      <a class="go" href="https://chengrenbaike.com/ai/" rel="noopener">AI 分类 →</a>
+    </header>
+
+    <section class="intro">
+      <div class="tag">AI-06 ARCHIVE · WITH WORKS</div>
+      <h1>AI 成人平台<br><em>品牌 + 作品档案</em></h1>
+      <p class="lead">
+        以生成式 AI 为主的成人内容品牌：短剧与漫剧、图像与写真生成、虚拟角色。下面按词条列出形态、收录作品规模，并补充 AI 短剧相关作品线索。本站只做索引，不提供生成或播放。
+      </p>
+      <div class="facts">
+        <span>栏目约 <strong>12</strong> 词条</span>
+        <span>代表内容 <strong>7</strong> 项量级</span>
+        <span>交叉：短剧 / 动漫 / 写真</span>
+        <span>更新参考 <strong>2026-11</strong></span>
+      </div>
+    </section>
+
+    <section class="dossier">
+      <h2>平台档案夹</h2>
+      <p class="sub">每条可点进官网词条。作品数为站内收录规模，详细剧名与分集以官网为准。</p>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/" rel="noopener">蓝果 AI</a>
+          <span class="code">AI-06-001</span>
+          <span class="badge">短剧 + 图像</span>
+        </div>
+        <div class="file-body">
+          <p class="about">AI 视频与生成内容平台，短剧生成与创作社区双形态。</p>
+          <div class="forms"><span>AI短剧</span><span>AI图像</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">
+            站内收录约 <strong>3</strong> 部关联作品
+            <span class="hint">详情与更新状态见品牌词条</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/muse-ai/" rel="noopener">MUSE AI</a>
+          <span class="code">AI-06-002</span>
+          <span class="badge">图像 + 角色</span>
+        </div>
+        <div class="file-body">
+          <p class="about">AI 图像生成与虚拟角色建模，含模板与 API 向能力。</p>
+          <div class="forms"><span>AI图像</span><span>AI虚拟角色</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">站内收录约 <strong>3</strong> 部 · 创作平台对比专题常见对照项</div>
+        </div>
+      </article>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/jiguang-ai/" rel="noopener">极光 AI</a>
+          <span class="code">AI-06-003</span>
+          <span class="badge">AI 图像</span>
+        </div>
+        <div class="file-body">
+          <p class="about">AI 图像生成平台，模板向能力较突出。</p>
+          <div class="forms"><span>AI图像</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">以图像生成能力为主 · 作品条目见官网 AI 分类</div>
+        </div>
+      </article>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/baize-ai/" rel="noopener">白泽 AI</a>
+          <span class="code">AI-06-004</span>
+          <span class="badge">虚拟角色</span>
+        </div>
+        <div class="file-body">
+          <p class="about">虚拟角色建模与一致性工具向平台。</p>
+          <div class="forms"><span>AI虚拟角色</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">角色 / 建模向 · 详见词条与创作平台对比专题</div>
+        </div>
+      </article>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/lingxi-ai/" rel="noopener">灵犀 AI</a>
+          <span class="code">AI-06-005</span>
+          <span class="badge">AI 短剧</span>
+        </div>
+        <div class="file-body">
+          <p class="about">AI 短剧生成工具与分发平台，收入「AI 成人短剧有哪些」专题。</p>
+          <div class="forms"><span>AI短剧</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">短剧生成与分发 · 与短剧分类交叉检索</div>
+        </div>
+      </article>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/fuguang-ai/" rel="noopener">浮光 AI</a>
+          <span class="code">AI-06-006</span>
+          <span class="badge">图像 + 角色</span>
+        </div>
+        <div class="file-body">
+          <p class="about">图像与角色双能力平台，专题对比中常见。</p>
+          <div class="forms"><span>AI图像</span><span>AI虚拟角色</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">双形态能力 · 作品与能力说明见词条</div>
+        </div>
+      </article>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/qingniao-ai/" rel="noopener">青鸟 AI</a>
+          <span class="code">AI-06-007</span>
+          <span class="badge">AI 动漫</span>
+        </div>
+        <div class="file-body">
+          <p class="about">偏 AI 动漫生成方向的探索型品牌。</p>
+          <div class="forms"><span>AI动漫</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">动漫生成向 · 可与动漫分类交叉查看</div>
+        </div>
+      </article>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/yantai-ai/" rel="noopener">砚台 AI</a>
+          <span class="code">AI-06-008</span>
+          <span class="badge">国风图像</span>
+        </div>
+        <div class="file-body">
+          <p class="about">国风模型与图像工具向品牌。</p>
+          <div class="forms"><span>AI图像</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">图像工具向 · 详情见词条</div>
+        </div>
+      </article>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/liuming-ai/" rel="noopener">流明 AI</a>
+          <span class="code">AI-06-009</span>
+          <span class="badge">短剧 + 图像</span>
+        </div>
+        <div class="file-body">
+          <p class="about">AI 内容创作套件品牌，覆盖短剧与图像。</p>
+          <div class="forms"><span>AI短剧</span><span>AI图像</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">创作套件向 · 作品关联见官网</div>
+        </div>
+      </article>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/juanji-gongzuoshi/" rel="noopener">卷积工作室</a>
+          <span class="code">AI-06-010</span>
+          <span class="badge">API · 图像</span>
+        </div>
+        <div class="file-body">
+          <p class="about">小型模型工作室，偏 API 优先的图像能力。</p>
+          <div class="forms"><span>AI图像</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">工作室 / API 向 · 见词条说明</div>
+        </div>
+      </article>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/huanfang-ai/" rel="noopener">幻方 AI</a>
+          <span class="code">AI-06-011</span>
+          <span class="badge">虚拟角色</span>
+        </div>
+        <div class="file-body">
+          <p class="about">角色社区与生成能力结合的平台形态。</p>
+          <div class="forms"><span>AI虚拟角色</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">角色社区向 · 详见词条</div>
+        </div>
+      </article>
+
+      <article class="file">
+        <div class="file-head">
+          <a class="name" href="https://chengrenbaike.com/ai/" rel="noopener">黄果漫剧</a>
+          <span class="code">剧-06-019</span>
+          <span class="badge">已核验示例</span>
+        </div>
+        <div class="file-body">
+          <p class="about">汇集原创 AI 漫剧、成人短剧、里番与韩漫等向内容；与黄果短剧生态相关，AI 栏目交叉收录。</p>
+          <div class="forms"><span>AI平台</span><span>AI漫剧</span></div>
+          <div class="works-label">收录作品</div>
+          <div class="works">
+            站内有核验记录 · 关联作品见词条（栏目标注收录作品规模）
+            <span class="hint">黄果短剧主品牌在「剧」类，作品量可达百级（如催眠神瞳等见月度汇总）</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="spotlight">
+      <h2>AI 短剧相关作品线索</h2>
+      <p>来自专题「AI 成人短剧有哪些」与专栏月报的可公开线索，完整分集与状态以官网作品页为准。</p>
+      <ul>
+        <li>
+          <a href="https://chengrenbaike.com/duanju/" rel="noopener">黄果短剧</a>
+          <span class="meta">剧-01-001 · 收录作品约 183 · AI短剧 / 漫剧 / 真人</span>
+        </li>
+        <li>
+          <span>专栏示例作品</span>
+          <span class="meta">《催眠神瞳》全 21 集等 · 见 2026 年 10 月短剧更新汇总</span>
+        </li>
+        <li>
+          <a href="https://chengrenbaike.com/duanju/shiguang/" rel="noopener">拾光短剧</a>
+          <span class="meta">剧-01-008 · AI 短剧 · 悬疑向</span>
+        </li>
+        <li>
+          <a href="https://chengrenbaike.com/duanju/yexing-lieche/" rel="noopener">夜行列车</a>
+          <span class="meta">剧-01-014 · AI 剧情短片系列</span>
+        </li>
+        <li>
+          <a href="https://chengrenbaike.com/dongman/huanyue-manju/" rel="noopener">幻月漫剧</a>
+          <span class="meta">漫-02-003 · AI 漫剧 · 漫画分镜驱动</span>
+        </li>
+        <li>
+          <a href="https://chengrenbaike.com/zhuanti/ai-chengren-duanju/" rel="noopener">打开 AI 短剧专题 →</a>
+          <span class="meta">8 个相关词条盘点</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="cta">
+      <h2>档案之外，请进官网</h2>
+      <p>核验状态、入口与完整作品列表只在成人百科主站维护。</p>
+      <a class="main" href="https://chengrenbaike.com/ai/" rel="noopener">AI 分类</a>
+      <a class="sub" href="https://chengrenbaike.com/zhuanti/ai-chengren-duanju/" rel="noopener">AI 短剧专题</a>
+      <a class="sub" href="https://chengrenbaike.com/" rel="noopener">首页</a>
+    </section>
+
+    <footer>
+      <div>© 成人百科 · AI 平台与作品档案页</div>
+      <p class="disclaimer">仅作资料索引导航，不提供生成、播放或下载。面向成年用户，请遵守当地法律法规。</p>
+    </footer>
+  </div>
+</body>
+</html>
